@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-df=pd.read_csv('OdevLineerReg.csv')
+df=pd.read_csv('dataset/OdevLineerReg.csv')
 #print(df.columns)
 #print(df.describe())
 df['Real GDP (Percent Change)'] = df['Real GDP (Percent Change)'].ffill()
